@@ -1,0 +1,21 @@
+{
+	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
+	"extends": ["config:recommended", "abandonments:recommended"],
+	"schedule": "* 0-7 * * 1",
+	"prHourlyLimit": 6,
+	"prConcurrentLimit": 4,
+	"commitMessagePrefix": "⬆️ ",
+	"rangeStrategy": "bump",
+	"abandonmentThreshold": "2 years",
+	"packageRules": [
+		{
+			"description": "Group playwright docker image & npm package",
+			"matchPackageNames": [
+				"@playwright/test",
+				"mcr.microsoft.com/playwright",
+				"ghcr.io/gwennlbh/playwright-bun"
+			],
+			"groupName": "Playwright",
+		}
+	]
+}

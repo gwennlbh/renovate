@@ -9,13 +9,14 @@
 	"abandonmentThreshold": "2 years",
 	"packageRules": [
 		{
+			"groupName": "Playwright",
 			"description": "Group playwright docker image & npm package",
+			"automerge": true,
 			"matchPackageNames": [
 				"@playwright/test",
 				"mcr.microsoft.com/playwright",
 				"ghcr.io/gwennlbh/playwright-bun"
 			],
-			"groupName": "Playwright",
 		}
 	]
 }

@@ -17,6 +17,14 @@
 				"mcr.microsoft.com/playwright",
 				"ghcr.io/gwennlbh/playwright-bun"
 			],
+		},
+		{
+			"groupName": "Wuchale",
+			"description": "Group wuchale with its other packages",
+			"matchPackageNames": [
+				"wuchale",
+				"@wuchale/*"
+			]
 		}
 	]
 }

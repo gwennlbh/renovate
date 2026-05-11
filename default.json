@@ -25,6 +25,14 @@
 				"wuchale",
 				"@wuchale/*"
 			]
+		},
+		{
+			"groupName": "Gradle",
+			"description": "Group gradle wrapper and com.android.tools.build:gradle",
+			"matchPackageNames": [
+				"com.android.tools.build-gradle",
+				"gradle"
+			]
 		}
 	]
 }

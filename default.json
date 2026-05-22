@@ -1,6 +1,6 @@
 {
 	"$schema": "https://docs.renovatebot.com/renovate-schema.json",
-	"extends": ["config:recommended", "abandonments:recommended"],
+	"extends": ["config:recommended", "abandonments:recommended", "helpers:pinGitHubActionDigests"],
 	"schedule": ["* 21-23 * * 7", "* 0-16 * * 1" ],
 	"prHourlyLimit": 16,
 	"prConcurrentLimit": 4,

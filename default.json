@@ -8,7 +8,6 @@
 	"rangeStrategy": "bump",
 	"abandonmentThreshold": "2 years",
 	"minimumReleaseAge": "7 days",
-	"prCreation": "not-pending",
 	"internalChecksFilter": "strict",
 	"dependencyDashboard": true,
 	"packageRules": [

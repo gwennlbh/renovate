@@ -18,7 +18,9 @@
 			"matchPackageNames": [
 				"@playwright/test",
 				"mcr.microsoft.com/playwright",
-				"ghcr.io/gwennlbh/playwright-bun"
+				"ghcr.io/gwennlbh/playwright-bun",
+				"docker.io/gwennlbh/playwright-bun",
+				"gwennlbh/playwright-bun"
 			],
 		},
 		{

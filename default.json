@@ -5,6 +5,7 @@
 	"prHourlyLimit": 16,
 	"prConcurrentLimit": 4,
 	"commitMessagePrefix": "⬆️ ",
+	"commitBody": "{{#if logJSON.hasReleaseNotes}}{{#each logJSON.versions as |release|}}{{# if release.releaseNotes}}##### [`v{{{release.version}}}`]({{{release.releaseNotes.url}}})\n\n{{{release.releaseNotes.body}}}{{/if}}{{/each}}{{/if}}",
 	"rangeStrategy": "bump",
 	"abandonmentThreshold": "2 years",
 	"minimumReleaseAge": "7 days",
